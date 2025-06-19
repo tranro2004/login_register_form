@@ -1,0 +1,31 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #f7f7f7;
+        margin: 0;
+    }
+
+    .account-container {
+        display: flex;
+        max-width: 700px;
+        width: 200%;
+        margin: 40px 300px;
+        font-size: 12px;
+        /* background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    }
+
+    .sidebar {
+        width: 30%;
+        border-right: 1px solid #ddd;
+        /* padding: 20px; */
+    }
+
+    .content {
+        width: 70%;
+        padding: 30px;
+    }
+    .sidebar-menu .logout {
+    color: #d32f2f;
+    font-weight: bold;
+    }

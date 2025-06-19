@@ -1,0 +1,18 @@
+.back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23007bff" viewBox="0 0 16 16"><path d="M7.646 5.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 9H3.5a.5.5 0 0 1 0-1h6.793L7.646 5.854a.5.5 0 0 1 0-.708z"/></svg>') no-repeat left 8px center;
+    padding-left: 30px; /* Điều chỉnh padding để tránh chồng lấp icon */
+}
+
+.back-link:hover {
+    background-color: #007bff;
+    color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" viewBox="0 0 16 16"><path d="M7.646 5.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 9H3.5a.5.5 0 0 1 0-1h6.793L7.646 5.854a.5.5 0 0 1 0-.708z"/></svg>');
+}
